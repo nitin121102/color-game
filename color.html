@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>color</title>
+	<style type="text/css" >
+		.purple{
+			background: purple;
+
+		}
+		.square{
+			width: 30%;
+			background: purple;
+			padding-bottom: 30%;
+			float: left;
+			margin: 1.66%;
+			border-radius:50%;
+			transition: 1.0s;
+		}
+		#container{
+			max-width: 600px;
+			margin: 0 auto; 
+		}
+		#rgb{
+			font-size: 200%;
+		}
+		#stripe{
+			background: white;
+			height: 30px;
+			text-align: center;
+			color: steelblue;
+		}
+		body{
+			background-color:#232323; 
+			margin: 0;    
+			font-family: "montserrat","Aveniers";
+		}
+		h1{padding:  20px 0;
+			color: white;
+			text-align: center;
+			font-weight: normal;
+			background: steelblue;
+			text-transform: uppercase;
+			margin: 0;
+			line-height: 1.1;
+		}
+		span{
+			color: white;
+		}
+		button{
+			border:none;
+			background: none;
+			text-transform: uppercase;
+			height:100%;
+			font-weight: 700;
+			color: steelblue; 
+			letter-spacing: 1px;
+			font-size: inherit;
+			transition: all 0 .5s;
+		}
+		#message{
+			color: steelblue ;  
+		}
+		button:hover{
+			color: white;
+			background: steelblue;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>The Great 
+    <br>
+	<span id="rgb">Rgb</span> 
+    <br>
+	 Color Game</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message">message</span>
+	</div>
+	<div id="container">
+		<div class="square"></div>
+        <div class="square"></div>
+          <div class="square"></div>
+           <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+
+	</div>
+
+
+
+<script type="text/javascript" src="color.js"></script>
+</body>
+</html>
